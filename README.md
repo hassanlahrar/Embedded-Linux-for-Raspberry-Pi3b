@@ -92,13 +92,13 @@ usr bin sbin lib
 Adjust Rootfile system
 
 
-# Create directories to mount stuff:
+Create directories to mount stuff:
 mkdir proc
 mkdir sys
 mkdir dev
 mkdir etc
 
-# Create config directory:
+Create config directory:
 mkdir etc/init.d
 touch etc/init.d/rcS
 chmod +x etc/init.d/rcS
